@@ -814,10 +814,10 @@ elif menu == "📚 Documentation":
 # À PROPOS
 # ============================================================
 
-elif menu == "À propos":
+elif menu == "ℹ️ À propos":
 
     st.title(
-        "À propos du projet"
+        "ℹ️ À propos du projet"
     )
 
     st.image("GUEU_labe1.jpg", use_container_width=True)
@@ -836,26 +836,34 @@ elif menu == "À propos":
         mathématique appliquée**
         """
     )
-    st.html("<div style='height: 30px;'></div>") # Crée un espace vide de 30 pixels
-    st.markdown(
-    """
-    🔎 **Informations**
+
+
+     st.html("<div style='height: 30px;'></div>") # Crée un espace vide de 30 pixels
+
+     st.markdown(
+        """
+        🔎 **Informations**
 
     Les travaux de recherche scientifique ont été réalisés par Guy Ghislain GUEU, 
     Scientifique indépendant en équations différentielles. 
     Ainsi que ses élèves-chercheurs du programme PESURS représentés à travers l'Afrique.
 
-    🔎 **Contacts**
+        🔎 **Contacts**
     
     (00 221) 77 807 62 07 uniquement par WhatsApp
     ghislainci@outlook.fr
-    """
-    )
-    st.info(
+        """
+      )
+
+     st.html("<div style='height: 30px;'></div>") # Crée un espace vide de 30 pixels
+
+     st.image("logo_DLR.PNG", use_container_width=True)
+
+     st.info(
         "Le modèle doit être calibré et validé sur des données "
         "empiriques avant toute utilisation opérationnelle "
         "dans la prise de décision publique."
-    )
+      )
 
 st.html("<div style='height: 30px;'></div>") # Crée un espace vide de 30 pixels
 
