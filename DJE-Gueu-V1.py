@@ -846,12 +846,13 @@ elif menu == "À propos":
     )
 
 
-      st.info(
+    st.info(
       
         "Le modèle doit être calibré et validé sur des données "
         "empiriques avant toute utilisation opérationnelle "
         "dans la prise de décision publique."
     )
+    
     st.markdown(
         """
         🔎 **Contacts**
