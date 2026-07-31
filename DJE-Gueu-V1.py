@@ -838,6 +838,13 @@ elif menu == "ℹ️ À propos":
     )
     
     st.info(
+        
+        "**Informations**"
+
+        "Les travaux de recherche scientifique ont été réalisés par Guy Ghislain GUEU, "
+        "Scientifique indépendant en équations différentielles. "
+        "Ainsi que ses élèves-chercheurs du programme PESURS représentés à travers l'Afrique."
+        
         "Le modèle doit être calibré et validé sur des données "
         "empiriques avant toute utilisation opérationnelle "
         "dans la prise de décision publique."
@@ -845,12 +852,6 @@ elif menu == "ℹ️ À propos":
 
     st.markdown(
         """
-        🔎 **Informations**
-
-        Les travaux de recherche scientifique ont été réalisés par Guy Ghislain GUEU, 
-        Scientifique indépendant en équations différentielles. 
-        Ainsi que ses élèves-chercheurs du programme PESURS représentés à travers l'Afrique.
-
         🔎 **Contacts**
     
         (00 221) 77 807 62 07 uniquement par WhatsApp
