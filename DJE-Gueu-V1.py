@@ -840,8 +840,6 @@ st.markdown(
     """
 )
 
-st.html("<div style='height: 30px;'></div>") # Crée un espace vide de 30 pixels
-
     st.image("GUEU_labe1.jpg", width=200)
 
     st.info(
