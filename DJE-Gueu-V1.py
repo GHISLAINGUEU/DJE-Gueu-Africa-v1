@@ -851,8 +851,6 @@ elif menu == "ℹ️ À propos":
         """
    )
 
-   st.image("logo_DLR.PNG", width=200)
-
    st.info(
         "Le modèle doit être calibré et validé sur des données "
         "empiriques avant toute utilisation opérationnelle "
@@ -867,6 +865,6 @@ st.markdown(
     ** **
     """
 )
-
+st.image("logo_DLR.PNG", width=200)
 st.markdown("Copyright © 2026 DiffLink Research.")
 st.markdown("Tous droits réservés.")
