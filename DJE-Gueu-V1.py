@@ -838,24 +838,24 @@ elif menu == "ℹ️ À propos":
     )
 
 
-     st.markdown(
+        st.markdown(
         """
         🔎 **Informations**
 
-    Les travaux de recherche scientifique ont été réalisés par Guy Ghislain GUEU, 
-    Scientifique indépendant en équations différentielles. 
-    Ainsi que ses élèves-chercheurs du programme PESURS représentés à travers l'Afrique.
+        Les travaux de recherche scientifique ont été réalisés par Guy Ghislain GUEU, 
+        Scientifique indépendant en équations différentielles. 
+        Ainsi que ses élèves-chercheurs du programme PESURS représentés à travers l'Afrique.
 
         🔎 **Contacts**
     
-    (00 221) 77 807 62 07 uniquement par WhatsApp
-    ghislainci@outlook.fr
+        (00 221) 77 807 62 07 uniquement par WhatsApp
+        ghislainci@outlook.fr
         """
-      )
+        )
 
      st.html("<div style='height: 30px;'></div>") # Crée un espace vide de 30 pixels
 
-     st.image("logo_DLR.PNG", use_container_width=True)
+     st.image("logo_DLR.PNG", width=200)
 
      st.info(
         "Le modèle doit être calibré et validé sur des données "
