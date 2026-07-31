@@ -214,19 +214,19 @@ with st.sidebar:
     menu = st.radio(
         "Navigation",
         [
-            "🏠 Accueil",
-            "📖 Le modèle DJE-Gueu",
-            "🧮 Simulateur",
-            "📊 Équilibres",
-            "📈 Stabilité",
-            "🔬 Sensibilité",
-            "🌀 Dynamique",
-            "🌍 Scénarios territoriaux",
-            "🎯 Politiques publiques",
-            "📋 Indicateurs décideurs",
-            "🌐 ODD & Agenda 2030",
-            "📚 Documentation",
-            "ℹ️ À propos"
+            "Accueil",
+            "Le modèle DJE-Gueu",
+            "Simulateur",
+            "Équilibres",
+            "Stabilité",
+            "Sensibilité",
+            "Dynamique",
+            "Scénarios territoriaux",
+            "Politiques publiques",
+            "Indicateurs décideurs",
+            "ODD & Agenda 2030",
+            "Documentation",
+            "À propos"
         ]
     )
 
@@ -243,7 +243,7 @@ with st.sidebar:
 # PAGE ACCUEIL
 # ============================================================
 
-if menu == "🏠 Accueil":
+if menu == "Accueil":
 
     st.markdown(
         '<div class="main-title">'
@@ -346,10 +346,10 @@ if menu == "🏠 Accueil":
 # PAGE MODÈLE
 # ============================================================
 
-elif menu == "📖 Le modèle DJE-Gueu":
+elif menu == "Le modèle DJE-Gueu":
 
     st.title(
-        "📖 Présentation du modèle DJE-Gueu"
+        "Présentation du modèle DJE-Gueu"
     )
 
     st.markdown(
@@ -403,10 +403,10 @@ elif menu == "📖 Le modèle DJE-Gueu":
 # PAGE SIMULATEUR
 # ============================================================
 
-elif menu == "🧮 Simulateur":
+elif menu == "Simulateur":
 
     st.title(
-        "🧮 Simulateur DJE-Gueu"
+        "Simulateur DJE-Gueu"
     )
 
     st.write(
@@ -510,10 +510,10 @@ elif menu == "🧮 Simulateur":
 # PAGE ÉQUILIBRES
 # ============================================================
 
-elif menu == "📊 Équilibres":
+elif menu == "Équilibres":
 
     st.title(
-        "📊 Analyse des équilibres"
+        "Analyse des équilibres"
     )
 
     st.write(
@@ -580,10 +580,10 @@ elif menu == "📊 Équilibres":
 # PAGE STABILITÉ
 # ============================================================
 
-elif menu == "📈 Stabilité":
+elif menu == "Stabilité":
 
     st.title(
-        "📈 Analyse de stabilité"
+        "Analyse de stabilité"
     )
 
     st.info(
@@ -608,10 +608,10 @@ elif menu == "📈 Stabilité":
 # PAGE SENSIBILITÉ
 # ============================================================
 
-elif menu == "🔬 Sensibilité":
+elif menu == "Sensibilité":
 
     st.title(
-        "🔬 Analyse de sensibilité"
+        "Analyse de sensibilité"
     )
 
     st.write(
@@ -631,10 +631,10 @@ elif menu == "🔬 Sensibilité":
 # PAGE DYNAMIQUE
 # ============================================================
 
-elif menu == "🌀 Dynamique":
+elif menu == "Dynamique":
 
     st.title(
-        "🌀 Dynamique du système"
+        "Dynamique du système"
     )
 
     st.write(
@@ -658,10 +658,10 @@ elif menu == "🌀 Dynamique":
 # PAGE SCÉNARIOS TERRITORIAUX
 # ============================================================
 
-elif menu == "🌍 Scénarios territoriaux":
+elif menu == "Scénarios territoriaux":
 
     st.title(
-        "🌍 Scénarios territoriaux"
+        "Scénarios territoriaux"
     )
 
     territoire = st.selectbox(
@@ -690,10 +690,10 @@ elif menu == "🌍 Scénarios territoriaux":
 # PAGE POLITIQUES PUBLIQUES
 # ============================================================
 
-elif menu == "🎯 Politiques publiques":
+elif menu == "Politiques publiques":
 
     st.title(
-        "🎯 Simulateur de politiques publiques"
+        "Simulateur de politiques publiques"
     )
 
     st.write(
@@ -722,10 +722,10 @@ elif menu == "🎯 Politiques publiques":
 # PAGE INDICATEURS
 # ============================================================
 
-elif menu == "📋 Indicateurs décideurs":
+elif menu == "Indicateurs décideurs":
 
     st.title(
-        "📋 Tableau de bord pour décideurs"
+        "Tableau de bord pour décideurs"
     )
 
     col1, col2, col3 = st.columns(3)
@@ -759,10 +759,10 @@ elif menu == "📋 Indicateurs décideurs":
 # PAGE ODD
 # ============================================================
 
-elif menu == "🌐 ODD & Agenda 2030":
+elif menu == "ODD & Agenda 2030":
 
     st.title(
-        "🌐 DJE-Gueu et Objectifs de développement durable"
+        "DJE-Gueu et Objectifs de développement durable"
     )
 
     st.markdown(
@@ -787,10 +787,10 @@ elif menu == "🌐 ODD & Agenda 2030":
 # DOCUMENTATION
 # ============================================================
 
-elif menu == "📚 Documentation":
+elif menu == "Documentation":
 
     st.title(
-        "📚 Documentation scientifique"
+        "Documentation scientifique"
     )
 
     st.markdown(
@@ -814,10 +814,10 @@ elif menu == "📚 Documentation":
 # À PROPOS
 # ============================================================
 
-elif menu == "ℹ️ À propos":
+elif menu == "À propos":
 
     st.title(
-        "ℹ️ À propos du projet"
+        "À propos du projet"
     )
 
     st.image("GUEU_labe1.jpg", use_container_width=True)
@@ -839,17 +839,19 @@ elif menu == "ℹ️ À propos":
     
     st.info(
         
-        "**Informations**"
-
         "Les travaux de recherche scientifique ont été réalisés par Guy Ghislain GUEU, "
         "Scientifique indépendant en équations différentielles. "
         "Ainsi que ses élèves-chercheurs du programme PESURS représentés à travers l'Afrique."
-        
+
+    )
+
+
+      st.info(
+      
         "Le modèle doit être calibré et validé sur des données "
         "empiriques avant toute utilisation opérationnelle "
         "dans la prise de décision publique."
     )
-
     st.markdown(
         """
         🔎 **Contacts**
