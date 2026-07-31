@@ -836,6 +836,13 @@ elif menu == "ℹ️ À propos":
         mathématique appliquée**
         """
     )
+    
+    st.info(
+        "Le modèle doit être calibré et validé sur des données "
+        "empiriques avant toute utilisation opérationnelle "
+        "dans la prise de décision publique."
+    )
+
     st.markdown(
         """
         🔎 **Informations**
