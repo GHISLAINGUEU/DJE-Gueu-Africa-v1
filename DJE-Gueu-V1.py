@@ -857,7 +857,7 @@ elif menu == "À propos":
         """
         🔎 **Contacts**
     
-        (00 221) 77 807 62 07 uniquement par WhatsApp
+        (00 221) 77 807 62 07 uniquement par WhatsApp - 
         ghislainci@outlook.fr
        """
    )
