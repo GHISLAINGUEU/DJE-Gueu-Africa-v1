@@ -814,10 +814,10 @@ elif menu == "📚 Documentation":
 # À PROPOS
 # ============================================================
 
-elif menu == "ℹ️ À propos":
+elif menu == "🔎 À propos":
 
     st.title(
-        "ℹ️ À propos du projet"
+        "🔎 À propos du projet"
     )
 
     st.image("GUEU_labe1.jpg", use_container_width=True)
