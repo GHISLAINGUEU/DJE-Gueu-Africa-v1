@@ -294,7 +294,7 @@ if menu == "🏠 Accueil":
 
     st.markdown("---")
 
-    st.markdown("### 🎯 Objectif de la plateforme")
+    st.markdown("### Objectif de la plateforme")
 
     st.write(
         """
@@ -306,7 +306,7 @@ if menu == "🏠 Accueil":
         """
     )
 
-    st.markdown("### 🌍 Publics concernés")
+    st.markdown("### Publics concernés")
 
     col1, col2, col3 = st.columns(3)
 
