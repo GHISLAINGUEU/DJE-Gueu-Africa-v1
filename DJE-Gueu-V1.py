@@ -851,8 +851,6 @@ elif menu == "ℹ️ À propos":
         """
    )
 
-   st.html("<div style='height: 30px;'></div>") # Crée un espace vide de 30 pixels
-
    st.image("logo_DLR.PNG", width=200)
 
    st.info(
