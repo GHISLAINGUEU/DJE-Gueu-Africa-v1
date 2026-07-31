@@ -307,14 +307,14 @@ if menu == "🏠 Accueil":
     )
 
 
-st.html("<div style='height: 30px;'></div>") # Crée un espace vide de 30 pixels
+    st.html("<div style='height: 30px;'></div>") # Crée un espace vide de 30 pixels
 
 
-st.markdown(
-    """
-    ** **
-    """
-)
+    st.markdown(
+      """
+      ** **
+      """
+    )
 
 
     
