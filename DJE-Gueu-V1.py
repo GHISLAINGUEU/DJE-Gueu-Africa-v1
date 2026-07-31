@@ -12,7 +12,7 @@ from PIL import Image
 icon = Image.open("logo_DLR.PNG")
 
 st.set_page_config(
-    page_title="🌍 DJE-Gueu | Plateforme numérique",
+    page_title="DJE-Gueu | Plateforme numérique",
     page_icon=icon,
     layout="wide",
     initial_sidebar_state="expanded"
@@ -197,6 +197,9 @@ def find_equilibria(
 
 with st.sidebar:
 
+    #Afficher le logo dans la barre latérale (Sidebar)
+    st.sidebar.image("logo_DLR.PNG", use_container_width=True)
+    
     st.markdown(
         "## 🌍 DJE-Gueu"
     )
