@@ -849,12 +849,13 @@ elif menu == "ℹ️ À propos":
         (00 221) 77 807 62 07 uniquement par WhatsApp
         ghislainci@outlook.fr
        """
-     )
-     st.info(
+   )
+   st.info(
         "Le modèle doit être calibré et validé sur des données "
         "empiriques avant toute utilisation opérationnelle "
         "dans la prise de décision publique."
-    )
+   )
+
 st.html("<div style='height: 30px;'></div>") # Crée un espace vide de 30 pixels
 st.markdown(
     """
